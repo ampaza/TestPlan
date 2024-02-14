@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2.csproj", "{B5BB744E-8BDF-46D9-BA66-36C9BFE73D62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "drivers", "drivers", "{B47410CA-5C8A-4D8E-A0B3-C4F3A2BCE32E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe = ..\..\..\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe
+		..\..\..\Downloads\geckodriver-v0.34.0-win64\geckodriver.exe = ..\..\..\Downloads\geckodriver-v0.34.0-win64\geckodriver.exe
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5BB744E-8BDF-46D9-BA66-36C9BFE73D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BB744E-8BDF-46D9-BA66-36C9BFE73D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BB744E-8BDF-46D9-BA66-36C9BFE73D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BB744E-8BDF-46D9-BA66-36C9BFE73D62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {036CE345-4718-4BF8-A7A6-75DFD18A8E79}
+	EndGlobalSection
+EndGlobal
